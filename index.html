@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliDoc - AI Markdown Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            typography: ({ theme }) => ({
+              DEFAULT: {
+                css: {
+                  '--tw-prose-body': theme('colors.slate[300]'),
+                  '--tw-prose-headings': theme('colors.white'),
+                  '--tw-prose-lead': theme('colors.slate[400]'),
+                  '--tw-prose-links': theme('colors.sky[400]'),
+                  '--tw-prose-bold': theme('colors.white'),
+                  '--tw-prose-counters': theme('colors.slate[400]'),
+                  '--tw-prose-bullets': theme('colors.slate[600]'),
+                  '--tw-prose-hr': theme('colors.slate[700]'),
+                  '--tw-prose-quotes': theme('colors.slate[200]'),
+                  '--tw-prose-quote-borders': theme('colors.slate[700]'),
+                  '--tw-prose-captions': theme('colors.slate[400]'),
+                  '--tw-prose-code': theme('colors.sky[300]'),
+                  '--tw-prose-pre-code': theme('colors.slate[300]'),
+                  '--tw-prose-pre-bg': 'rgba(0,0,0,0.2)',
+                  '--tw-prose-th-borders': theme('colors.slate[600]'),
+                  '--tw-prose-td-borders': theme('colors.slate[700]'),
+                  '--tw-prose-invert-body': theme('colors.slate[700]'),
+                  '--tw-prose-invert-headings': theme('colors.black'),
+                  '--tw-prose-invert-lead': theme('colors.slate[600]'),
+                  '--tw-prose-invert-links': theme('colors.sky[600]'),
+                  '--tw-prose-invert-bold': theme('colors.black'),
+                  '--tw-prose-invert-counters': theme('colors.slate[600]'),
+                  '--tw-prose-invert-bullets': theme('colors.slate[400]'),
+                  '--tw-prose-invert-hr': theme('colors.slate[200]'),
+                  '--tw-prose-invert-quotes': theme('colors.slate[800]'),
+                  '--tw-prose-invert-quote-borders': theme('colors.slate[200]'),
+                  '--tw-prose-invert-captions': theme('colors.slate[600]'),
+                  '--tw-prose-invert-code': theme('colors.sky[700]'),
+                  '--tw-prose-invert-pre-code': theme('colors.slate[200]'),
+                  '--tw-prose-invert-pre-bg': 'rgb(20,30,40)',
+                  '--tw-prose-invert-th-borders': theme('colors.slate[300]'),
+                  '--tw-prose-invert-td-borders': theme('colors.slate[200]'),
+                },
+              },
+            }),
+          },
+        },
+        plugins: [
+          require('@tailwindcss/typography'),
+        ],
+      }
+    </script>
+     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react-markdown": "https://esm.sh/react-markdown@^10.1.0",
+    "remark-gfm": "https://esm.sh/remark-gfm@^4.0.1",
+    "react-syntax-highlighter/": "https://esm.sh/react-syntax-highlighter@^15.6.1/",
+    "react-syntax-highlighter": "https://esm.sh/react-syntax-highlighter@^15.6.1",
+    "rehype-raw": "https://esm.sh/rehype-raw@^7.0.0",
+    "jspdf": "https://esm.sh/jspdf@^3.0.1",
+    "html2canvas": "https://esm.sh/html2canvas@^1.4.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.10.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
