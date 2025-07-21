@@ -12,7 +12,6 @@ IntelliDoc is an intelligent markdown editor designed to streamline your content
 ## ✨ Features
 
 *   **Real-time Markdown Editor**: Write and format your content with a live preview.
-*   **AI-Powered Content Assistance**: Leverage the Google Gemini API to generate text, rephrase sentences, summarize content, or brainstorm ideas directly within the editor. (Requires Gemini API key)
 *   **GitHub Flavored Markdown (GFM) Support**: Enjoy extended markdown syntax for tables, task lists, and more.
 *   **Syntax Highlighting**: Beautifully rendered code blocks with `react-syntax-highlighter`.
 *   **Export Functionality**: Export your markdown content to PDF or image (PNG/JPEG) formats for easy sharing and distribution.
