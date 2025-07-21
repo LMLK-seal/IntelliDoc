@@ -8,6 +8,7 @@
 ## Description
 
 IntelliDoc is an intelligent markdown editor designed to streamline your content creation workflow. It combines a robust markdown editing experience with the power of artificial intelligence, enabling AI-assisted content generation and enhancement directly within your editor. Beyond editing, IntelliDoc allows users to seamlessly preview their markdown and export it to various formats, such as PDF and images, making document sharing and publishing effortless.
+[Live DEMO](quiet-kleicha-3fa3d6.netlify.app/).
 
 ## ✨ Features
 
