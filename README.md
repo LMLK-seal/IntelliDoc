@@ -24,8 +24,6 @@ IntelliDoc is an intelligent markdown editor designed to streamline your content
     *   [React](https://react.dev/) - A JavaScript library for building user interfaces.
     *   [TypeScript](https://www.typescriptlang.org/) - A strongly typed superset of JavaScript.
     *   [Vite](https://vitejs.dev/) - A fast and opinionated build tool for modern web projects.
-*   **AI Integration**:
-    *   [`@google/genai`](https://github.com/google/generative-ai-js) - Official Google Generative AI SDK for JavaScript.
 *   **Markdown Processing**:
     *   [`react-markdown`](https://github.com/remarkjs/react-markdown) - Renders markdown as React components.
     *   [`remark-gfm`](https://github.com/remarkjs/remark-gfm) - Plugin to support GitHub Flavored Markdown.
