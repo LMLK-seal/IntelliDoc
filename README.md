@@ -65,8 +65,7 @@ To get IntelliDoc up and running on your local machine for development and testi
 Once the application is running:
 
 1.  **Write Markdown**: Use the left pane to type or paste your markdown content. The right pane will display a live preview.
-2.  **AI Assistance**: Look for features integrated with Gemini (e.g., a button to "Generate Content", "Summarize", "Rephrase").
-3.  **Export**: Utilize the export options (e.g., "Export to PDF", "Export to Image") to save your document in desired formats.
+2.  **Export**: Utilize the export options (e.g., "Export to PDF", "Export to Image") to save your document in desired formats.
 
 ## 🤝 Contributing
 
